@@ -1,0 +1,25 @@
+# dependencies
+/node_modules
+
+# build output
+/build
+/dist
+
+# local development files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# logs and databases
+*.log
+*.sqlite
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# misc
+.DS_Store
+Thumbs.db
